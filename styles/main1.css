@@ -1,0 +1,18 @@
+.flex{
+  display: flex;
+  border:solid;
+  padding:"5";
+  flex-direction:column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+table,tr,th,td{
+  border:solid #ff3241;
+  text-align: center;
+  font-style: italic;
+}
+p,li{
+  align-content:margin-left;
+  font-size: 20;
+}

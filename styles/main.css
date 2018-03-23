@@ -1,0 +1,81 @@
+body{
+  background-color:blue;
+}
+.flex-main{
+  display:flex;
+  flex-direction:row;
+}
+.profile-card{
+  width:25%;
+  background-color:orange;
+  padding:2%;
+  margin:2%;
+}
+.content-card{
+  width:75%;
+  background-color:red;
+  padding:2%;
+  margin:2%;
+}
+.profile-image{
+  display:block;
+  vertical-align:middle;
+  margin-left: auto;
+  margin-right:auto;
+}
+h2,h3,h4{
+  text-align: center;
+}
+@media only screen and (min-width:180px) and (max-width:240px){
+  .flex-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-card{
+    width: 100%;
+    background-color: #ddd;
+    padding: 3%;
+    margin: 2%;
+  }
+  .content-card{
+    width:100%;
+    background-color:red;
+    padding:2%;
+    margin:2%;
+  }
+}
+@media only screen and (min-width:364px) and (max-width:460px){
+  .flex-main{
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-card{
+    width: 100%;
+    background-color: #ddd;
+    padding: 3%;
+    margin: 2%;
+  }
+  .content-card{
+    width:100%;
+    background-color:red;
+    padding:2%;
+    margin:2%;
+  }
+}
+@media only screen and (min-width:700px) and (max-width:1028px){
+  .flex-main{
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-card{
+    width: 100%;
+    background-color: #ddd;
+    padding: 3%;
+    margin: 2%;
+  }
+  .content-card{
+    width:100%;
+    background-color:red;
+    padding:2%;
+    margin:2%;
+  }
